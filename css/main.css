@@ -1,0 +1,55 @@
+h3 {
+	text-align: center;
+	background-color:#FFFFFF;
+	margin: 0;
+	padding: 10px;
+}
+
+
+.green, .red, .blue,
+.conversation, .new, .work {
+	padding: 0;
+	color: black;
+	padding-bottom: 50px;
+	//border-bottom: 2px dashed black;
+	//width: 32%;
+	float: left;
+	margin-bottom:2%;
+}
+
+.green{
+	margin-right: 2%;
+}
+
+.blue{
+	margin-left: 2%;
+}
+
+.green,
+.new {
+	background-color: #72F472;
+}
+
+.red,
+.conversation  {
+	background-color: #EC7471;
+}
+
+.blue,
+.work {
+	background-color: #6AB0EC;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+.container {
+	//box-shadow: 0 0 5px 2px #ccc;
+	padding: 0;
+	margin-top: 50px;
+}
+
+#form-search{
+	float:right;
+}
