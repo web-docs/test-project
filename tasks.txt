@@ -97,7 +97,7 @@ SELECT id, title, COUNT(id) as cnt FROM books GROUP BY author_id HAVING cnt=3;
 --изменение книги/автора
 
 разработка заняла 14 часов непрерывного программинга
-
+в git отправлен htaccess с расширением txt его нужно переименовать в .htaccess
 
 7) (PHP) В переменной $books хранится массив книг. Вывести данный массив на экран в виде таблицы.
 <table>
